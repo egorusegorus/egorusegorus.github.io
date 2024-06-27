@@ -54,10 +54,6 @@ proguard/
 obj/
 .ndk/
 
-# Gradle
-.gradle/
-build/
-
 # IDE config
 .idea/
 *.iml
@@ -98,3 +94,7 @@ __pycache__/
 # Windows
 Thumbs.db
 Desktop.ini
+
+# Submodule related
+# Ensure submodule paths are correctly configured in .gitmodules
+# Fix submodule URL error

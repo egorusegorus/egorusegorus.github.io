@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WiederStandRechner</string>
+    <string name="textview1">Wert des Wiederstand</string>
+    <string name="textview2">Einheiten</string>
+    <string name="textview3">Toleranz</string>
+    <string name="textview5">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1&#160;&#160;&#160;&#160;2&#160;&#160;&#160;&#160;&#160;3&#160;&#160;&#160;&#160;&#160;4&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5</string>
+    <string name="textview11">Ring 1</string>
+    <string name="textview12">Ring 2</string>
+    <string name="textview13">Ring 3</string>
+    <string name="textview14">Ring 4</string>
+    <string name="textview15">Ring 5</string>
+
+</resources>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona na podstawie XML</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .image-view {
+            width: 100%; /* Szerokość obrazków dostosowana do szerokości inputu */
+            display: block; /* Aby obrazki były ułożone jeden na drugim */
+            position: absolute; /* Pozycjonowanie absolutne */
+            top: 0; /* Ustawienie na górze */
+            left: 0; /* Ustawienie na lewo */
+            display: none; /* Ukrycie wszystkich obrazków */
+        }
+        .horizontal-layout {
+            position: relative; /* Aby móc zastosować pozycjonowanie względem tego kontenera */
+        }
+        #wiederstand {
+            position: absolute; /* Pozycjonowanie absolutne względem rodzica */
+            top: 0;
+            left: 0;
+            width: 100%; /* Szerokość równa szerokości rodzica (horizontal-layout) */
+            z-index: -1; /* Umieścić za innymi elementami */
+            display: block; /* Pokazanie tylko obrazka "wiederstand.jpg" */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="vertical-layout">
+            <div class="horizontal-layout mb-7">
+                <div class="text-view" id="textView1">TextView1</div>
+                <div class="edit-text-number" id="edit-text-number"></div>
+                <input type="number" maxlength="3" placeholder="" class="edit-text-number">
+                <div class="text-view" id="textView2">TextView2</div>
+            </div>
+            <div class="horizontal-layout mb-16">
+                <select id="spinner1" class="spinner"></select>
+            </div>
+            <div class="vertical-layout h-68">
+                <div class="text-view mb-8" id="textView3">TextView3</div>
+                <select id="spinner2" class="spinner"></select>
+            </div>
+            <div class="horizontal-layout mt-16">
+                <div class="frame-layout">
+                    <img src="wiederstand.png" id="wiederstand" class="image-view">
+                    <img src="v1.png" id="v1" class="image-view hidden">
+                <img src="v2.png" id="v2" class="image-view hidden">
+                <img src="v3.png" id="v3" class="image-view hidden">
+                <img src="v4.png" id="v4" class="image-view hidden">
+                <img src="v5.png" id="v5" class="image-view hidden">
+                <img src="v6.png" id="v6" class="image-view hidden">
+                <img src="v7.png" id="v7" class="image-view hidden">
+                <img src="v8.png" id="v8" class="image-view hidden">
+                <img src="v9.png" id="v9" class="image-view hidden">
+                <img src="w0.png" id="w0" class="image-view hidden">
+                <img src="w1.png" id="w1" class="image-view hidden">
+                <img src="w2.png" id="w2" class="image-view hidden">
+                <img src="w3.png" id="w3" class="image-view hidden">
+                <img src="w4.png" id="w4" class="image-view hidden">
+                <img src="w5.png" id="w5" class="image-view hidden">
+                <img src="w6.png" id="w6" class="image-view hidden">
+                <img src="w7.png" id="w7" class="image-view hidden">
+                <img src="w8.png" id="w8" class="image-view hidden">
+                <img src="w9.png" id="w9" class="image-view hidden">
+                <img src="x0.png" id="x0" class="image-view hidden">
+                <img src="x1.png" id="x1" class="image-view hidden">
+                <img src="x2.png" id="x2" class="image-view hidden">
+                <img src="x3.png" id="x3" class="image-view hidden">
+                <img src="x4.png" id="x4" class="image-view hidden">
+                <img src="x5.png" id="x5" class="image-view hidden">
+                <img src="x6.png" id="x6" class="image-view hidden">
+                <img src="x7.png" id="x7" class="image-view hidden">
+                <img src="x8.png" id="x8" class="image-view hidden">
+                <img src="x9.png" id="x9" class="image-view hidden">
+                <img src="y0.png" id="y0" class="image-view hidden">
+                <img src="y1.png" id="y1" class="image-view hidden">
+                <img src="y2.png" id="y2" class="image-view hidden">
+                <img src="y3.png" id="y3" class="image-view hidden">
+                <img src="y4.png" id="y4" class="image-view hidden">
+                <img src="y5.png" id="y5" class="image-view hidden">
+                <img src="y6.png" id="y6" class="image-view hidden">
+                <img src="y7.png" id="y7" class="image-view hidden">
+                <img src="y8.png" id="y8" class="image-view hidden">
+                <img src="y9.png" id="y9" class="image-view hidden">
+                <img src="z0.png" id="z0" class="image-view hidden">
+                <img src="z1.png" id="z1" class="image-view hidden">
+                <img src="z2.png" id="z2" class="image-view hidden">
+                <img src="z3.png" id="z3" class="image-view hidden">
+                <img src="z4.png" id="z4" class="image-view hidden">
+                <img src="z5.png" id="z5" class="image-view hidden">
+                <img src="z6.png" id="z6" class="image-view hidden">
+                <img src="z7.png" id="z7" class="image-view hidden">
+                </div>
+            </div>
+            <div class="horizontal-layout mt-16">
+                <div class="text-view" id="textView4">TextView4</div>
+                <select id="spinner3" class="spinner"></select>
+            </div>
+            <div class="horizontal-layout mt-16">
+                <div class="text-view" id="textView5">TextView5</div>
+                <select id="spinner4" class="spinner"></select>
+            </div>
+            <div class="horizontal-layout mt-16">
+                <div class="text-view" id="textView6">TextView6</div>
+                <select id="spinner5" class="spinner"></select>
+            </div>
+            <div class="horizontal-layout mt-16">
+                <div class="text-view" id="textView7">TextView7</div>
+                <select id="spinner6" class="spinner"></select>
+            </div>
+            <div class="horizontal-layout mt-16">
+                <div class="text-view" id="textView8">TextView8</div>
+                <select id="spinner7" class="spinner"></select>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

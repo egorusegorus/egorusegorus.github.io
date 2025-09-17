@@ -1,5 +1,5 @@
 // main.js
-
+setLanguage("de");
 document.addEventListener("DOMContentLoaded", () => {
   const langButtons = document.querySelectorAll(".language-switch button");
   const navButtons = document.querySelectorAll(".nav-links button");
@@ -55,4 +55,5 @@ if (defaultLangButton) {
   setActive(document.querySelectorAll('.language-switch button'), defaultLangButton);
 }
 });
+
 

@@ -1,4 +1,4 @@
-let currentLang = 'en';
+let currentLang = 'de';
 let translations = {};
 
 async function loadLanguage(lang) {

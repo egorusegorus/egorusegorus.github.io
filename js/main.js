@@ -48,10 +48,11 @@ document.addEventListener("DOMContentLoaded", () => {
 document.querySelector('[data-page="about"]').click();
 
 // Ustaw język i zaznacz aktywny przycisk
-setLanguage("en");
+setLanguage("de");
 
-const defaultLangButton = document.querySelector('[data-lang="en"]');
+const defaultLangButton = document.querySelector('[data-lang="de"]');
 if (defaultLangButton) {
   setActive(document.querySelectorAll('.language-switch button'), defaultLangButton);
 }
 });
+

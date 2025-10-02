@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #F3FCFF;
+  background-color: #F3FFFF;
   color: #333;
 }
 
@@ -86,6 +86,7 @@ header {
     flex: 1;
   }
 }
+
 
 
 

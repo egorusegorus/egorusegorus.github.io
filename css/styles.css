@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-color: #0000FF;
+  background-color: #0070C0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
@@ -44,7 +44,7 @@ header {
 
 .topbar button:hover,
 .topbar button:focus {
-  background-color: #aaaaaa;
+  background-color: #00B0F0;
   outline: none;
 }
 
@@ -85,4 +85,5 @@ header {
     flex: 1;
   }
 }
+
 
